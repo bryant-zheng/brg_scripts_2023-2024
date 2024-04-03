@@ -18,7 +18,7 @@ agilent:
 - will have to be turned on physically on the machine
 - gpib connection
 
-main scripts to look at are ___ (individual script for the keysight setup), ___ (individual script for the agilent setup), and "combined_keysight_agilent_script.m"
+main scripts to look at are the individual scripts for the keysight setup, the individual scripts for the agilent setup, and "combined_keysight_agilent_script.m"
 
 at the most basic form, the individual code essentially consists of
 1. adjustable parameters, where the user can change wavelengths, output power, file name, etc.
