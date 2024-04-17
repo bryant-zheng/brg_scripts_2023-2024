@@ -1,5 +1,5 @@
 tips and intro to the keysight and agilent laser/detector setups.
-last modified on april 3, 2024 by bryant zheng, zhengb33@mcmaster.ca
+last modified on april 16, 2024 by bryant zheng, zhengb33@mcmaster.ca
 
 use a windows machine
 
@@ -18,7 +18,7 @@ agilent:
 - will have to be turned on physically on the machine
 - gpib connection
 
-main scripts to look at are the individual scripts for the keysight setup, the individual scripts for the agilent setup, and "combined_keysight_agilent_script.m"
+main script to look at is the "combined_keysight_agilent_script.m" which allows you to control both the keysight and agilent laser/detectors in matlab. there are also files to control each machine separately, a python script for the keysight given by the manufacturers, and a different script for agilent using a different method.
 
 at the most basic form, the individual code essentially consists of
 1. adjustable parameters, where the user can change wavelengths, output power, file name, etc.
